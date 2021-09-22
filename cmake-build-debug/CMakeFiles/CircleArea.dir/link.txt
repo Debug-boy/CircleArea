@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\CircleArea.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\CircleArea.dir/objects.a @CMakeFiles\CircleArea.dir\objects1.rsp
+D:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CircleArea.dir/objects.a -Wl,--no-whole-archive -o CircleArea.exe -Wl,--out-implib,libCircleArea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CircleArea.dir\linklibs.rsp
